@@ -31,4 +31,5 @@ object AppModule {
 /*    @Singleton
     @Provides
     fun providesOcupacionDao(db: RoomExpampleDb) = db.ocupacionDao*/
+
 }
