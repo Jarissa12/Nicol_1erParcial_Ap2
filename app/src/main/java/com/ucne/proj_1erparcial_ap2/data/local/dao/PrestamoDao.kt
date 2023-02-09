@@ -4,6 +4,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.ucne.proj_1erparcial_ap2.data.local.Entity.PrestamoEntity
+import kotlinx.coroutines.flow.Flow
 
 interface PrestamoDao{
 
@@ -15,10 +16,10 @@ interface PrestamoDao{
         """
             Select * from PrestamsoEntity 
             WHERE PrestamoId=:PrestamoId
-             LIMIT 1
+            
         """
     )
+    fun getList():Flow<List<PrestamoEntity>>
 
 
-     fun getList()
 }

@@ -18,6 +18,6 @@ import com.ucne.proj_1erparcial_ap2.data.local.dao.PrestamoDao
 
 abstract class PrestamoDd: RoomDatabase() {
 
-    abstract val PrestamoDao : PrestamoDao
+    abstract val prestamoDao : PrestamoDao
 
 }
