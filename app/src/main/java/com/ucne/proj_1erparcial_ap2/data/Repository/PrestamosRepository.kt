@@ -17,7 +17,6 @@ import javax.inject.Inject
             return prestamoDao.insert(prestamos)
         }
 
-
         fun getList():Flow<List<PrestamoEntity>> = prestamoDao.getList()
 
     }
