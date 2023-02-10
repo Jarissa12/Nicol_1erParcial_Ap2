@@ -134,7 +134,6 @@ private fun PrestamoRow(prestamo: PrestamoEntity){
                 modifier=Modifier.weight(2f)
             )
         }
-
         Divider(Modifier.fillMaxWidth())
     }
 }
